@@ -8,3 +8,6 @@ class User(AbstractUser):
         ('client', 'Client'),
     )
     role = models.CharField(max_length=10, choices=ROLE_CHOICES)
+
+    def __str__(self):
+        return f"{self.username} ({self.role})"

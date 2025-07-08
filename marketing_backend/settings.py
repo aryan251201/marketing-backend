@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'accounts',
     'campaigns',
     'leads',
+    'tasks',
     'rest_framework'
 
 ]
